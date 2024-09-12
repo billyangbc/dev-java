@@ -1,0 +1,12 @@
+services:
+  codelab-java:
+    container_name: 'codelab-java'
+    hostname: 'java'
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    tty: true
+    working_dir: '/workspace'
+    volumes:
+      - ../workspace:/workspace

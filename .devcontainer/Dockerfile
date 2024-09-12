@@ -1,0 +1,3 @@
+FROM mcr.microsoft.com/devcontainers/java:1-21-bullseye
+USER vscode
+WORKDIR /workspace
