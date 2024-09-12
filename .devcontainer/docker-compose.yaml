@@ -1,7 +1,7 @@
 services:
-  codelab-java:
-    container_name: 'codelab-java'
-    hostname: 'java'
+  dev-java:
+    container_name: 'dev-java'
+    hostname: 'dev-java'
     build: 
       context: .
       dockerfile: Dockerfile

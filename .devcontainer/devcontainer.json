@@ -1,7 +1,7 @@
 // For format details, see https://aka.ms/devcontainer.json. For config options, see the
 // README at: https://github.com/devcontainers/templates/tree/main/src/java
 {
-	"name": "CodeLab-Java",
+	"name": "Dev-Java",
 
 	// The optional 'workspaceFolder' property is the path VS Code should open by default when
 	// connected. This is typically a file mount in .devcontainer/docker-compose.yml
@@ -13,7 +13,7 @@
 		"docker-compose.yaml"
 	],
 
-	"service": "codelab-java",
+	"service": "dev-java",
 
 	"features": {
 		// install java
